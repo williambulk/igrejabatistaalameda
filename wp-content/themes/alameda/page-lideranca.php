@@ -21,18 +21,62 @@ get_header(); ?>
 			</section>
 			<div class="container">
 				<div class="row pb50">
-					<div class="col s12 pt50 pb50">
-						<h3 class="center f35 turquesa-alameda-text">Conheça a liderança da Igreja Batista Alameda:</h3>
-					</div>
 					<div class="col s12">
-						<?php $lideranca = array('post_type' => 'lideranca_alameda', 'post_status' => 'publish', 'order' => 'asc', 'posts_per_page' => -1);
+						<h3 class="center mg50 mb0 f35 turquesa-alameda-text">Pastoral</h3>
+						<?php $lideranca = array(
+							'post_type' => 'lideranca_alameda',
+							'post_status' => 'publish',
+							'order' => 'asc',
+							'posts_per_page' => -1,
+							'tax_query' => array(
+						        array(
+						            'taxonomy' => 'categoria_lideranca',
+						            'field' => 'slug',
+						            'terms' => 'pastoral'
+						        )
+						    )
+						);
 			        	$lideranca = new WP_Query( $lideranca );
 			            	if ( $lideranca->have_posts() ) : ?>
 			            		<?php while ( $lideranca->have_posts() ) : $lideranca->the_post(); ?>
-									<div class="col s12 m3 img-tiny">
-										<img src="<?php the_field('foto'); ?>" class="circle responsive-img image-center" />
-										<p class="center">
-											<?php the_title(); ?><br>
+									<div class="col s12 m4 mg50">
+										<img src="<?php the_field('foto'); ?>" class="responsive-img image-center" style="max-height: 300px;" />
+										<h3 class="center mg10 mb0">
+											<?php the_title(); ?>
+										</h3>
+										<p class="center mg0">
+											<?php the_field('função'); ?>
+										</p>
+									</div>
+								<?php endwhile; ?>
+				           		<?php else : ?>
+				           	<?php endif; ?>
+			        	<?php wp_reset_query();?>
+					</div>
+					<div class="col s12 mg50">
+						<h3 class="center mg50 mb0 f35 turquesa-alameda-text">Ministerial</h3>
+						<?php $lideranca = array(
+							'post_type' => 'lideranca_alameda',
+							'post_status' => 'publish',
+							'order' => 'asc',
+							'posts_per_page' => -1,
+							'tax_query' => array(
+						        array(
+						            'taxonomy' => 'categoria_lideranca',
+						            'field' => 'slug',
+						            'terms' => 'ministerios'
+						        )
+						    )
+						);
+			        	$lideranca = new WP_Query( $lideranca );
+			            	if ( $lideranca->have_posts() ) : ?>
+			            		<?php while ( $lideranca->have_posts() ) : $lideranca->the_post(); ?>
+									<div class="col s12 m4 mg50">
+										<img src="<?php the_field('foto'); ?>" class="responsive-img image-center" style="max-height: 300px;" />
+										<h3 class="center mg10 mb0">
+											<?php the_title(); ?>
+										</h3>
+										<p class="center mg0">
 											<?php the_field('função'); ?>
 										</p>
 									</div>
