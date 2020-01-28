@@ -717,14 +717,25 @@ footer.page-footer p {
 		background-position: 0 !important;
 	}
 
+	.video-container {
+		padding-bottom: 7rem;
+	}
+
 }
 
-@media (min-width: 994px) {
+@media (min-width: 1060px) {
+	.video-container {
+		padding-bottom: 10.76rem;
+	}
+}
+
+@media (min-width: 992px) {
 	/* MEDIDAS */
 	.mg0 {margin: 0 !important;}
 	.mt0 {margin-top: 0 !important;}
 	.mg10 {margin-top: 10px !important;}
 	.mg20 {margin-top: 20px !important;}
+	.mg50 {margin-top: 50px !important;}
 	.mg130 {margin-top: 130px !important;}
 	.mg150 {margin-top: 150px !important;}
 	.mb0 {margin-bottom: 0 !important;}
@@ -775,9 +786,13 @@ footer.page-footer p {
 	}
 }
 
-@media (min-width: 994px) and (max-width: 1050px) {
+@media (min-width: 994px) and (max-width: 1060px) {
 	.social ul li {
 		margin-left: 10px;
+	}
+
+	.video-container {
+		padding-bottom: 6.72rem;
 	}
 }
 
