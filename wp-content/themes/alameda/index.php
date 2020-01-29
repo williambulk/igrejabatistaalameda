@@ -8,7 +8,7 @@ get_header(); ?>
 	<section id="abertura">
 		<div class="slider">
 			<ul class="slides">
-				<?php $slides = array('post_type' => 'slides_home', 'posts_per_page' => 4, 'post_status' => 'publish', 'order' => 'asc');
+				<?php $slides = array('post_type' => 'slides_home', 'posts_per_page' => -1, 'post_status' => 'publish', 'order' => 'asc');
 	        	$slides_home = new WP_Query( $slides );
 	            	if ( $slides_home->have_posts() ) {
 	            		while ( $slides_home->have_posts() ) : $slides_home->the_post(); ?>
@@ -216,11 +216,11 @@ get_header(); ?>
 				            	if ( $eventoshome->have_posts() ) : ?>
 				            		<?php while ( $eventoshome->have_posts() ) : $eventoshome->the_post(); ?>
 				            			<?php if(get_field('mostrar_na_home') == true) : ?>
-											<div class="col s12 m4 l4 ps10">
+											<div class="col s10 push-s1 l4 ps10 mb50 mg20m h260 hautom">
 												<div class="card hoverable z-depth-2s">
 													<div class="card-image">
 														<a href="<?php the_permalink(); ?>">
-															<img src="<?php the_field('imagem_miniatura'); ?>" />
+															<img class="miniatura-agenda" src="<?php the_field('imagem_miniatura'); ?>" />
 														</a>
 													</div>
 													<div class="card-action">
