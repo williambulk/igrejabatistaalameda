@@ -39,12 +39,12 @@ get_header(); ?>
 			        	$lideranca = new WP_Query( $lideranca );
 			            	if ( $lideranca->have_posts() ) : ?>
 			            		<?php while ( $lideranca->have_posts() ) : $lideranca->the_post(); ?>
-									<div class="col s12 m4 mg50">
+									<div class="col s12 m4 mg50 mg20m">
 										<img src="<?php the_field('foto'); ?>" class="responsive-img image-center" style="max-height: 300px;" />
-										<h3 class="center mg10 mb0">
+										<h3 class="center mg10 mb0 mb0m">
 											<?php the_title(); ?>
 										</h3>
-										<p class="center mg0">
+										<p class="center mg0 mg0m">
 											<?php the_field('função'); ?>
 										</p>
 									</div>
