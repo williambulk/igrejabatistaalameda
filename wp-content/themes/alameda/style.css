@@ -463,7 +463,7 @@ h1.heading {
 
 .lideranca {
 	background: url('../alameda/img/topo/lideranca.jpg');
-	background-position: -80px -160px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
