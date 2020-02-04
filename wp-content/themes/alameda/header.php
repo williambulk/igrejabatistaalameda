@@ -2,7 +2,6 @@
 <html <?php language_attributes(); ?>>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- METAS -->
-    
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <!-- TÍTULO -->
     <title>
@@ -36,7 +35,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.2/bootstrap-table.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <link href="<?php bloginfo('template_url') ?>/js/dist/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
-
     <!-- WP PINGBACK -->
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!-- FAVICON -->
@@ -70,7 +68,36 @@
     </script>
   </head>
   <body>
+
   <!-- HEADER --> 
+  <?php require_once "wp-content/themes/alameda/js/mobile-detect/Mobile_Detect.php"; ?>
+  <?php $detect = new Mobile_Detect; ?>
+
+  <!-- Modal iOS -->
+  <?php if( $detect->isiOS() ){ ?>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Você já baixou o nosso aplicativo?</h4>
+      <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
+    </div>
+    <div class="modal-footer center">
+      <a href="https://apps.apple.com/br/app/id1490099589" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
+    </div>
+  </div>
+  <?php } ?>
+  <!-- Modal Android -->
+  <?php if( $detect->isAndroidOS() ){ ?>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Você já baixou o nosso aplicativo?</h4>
+      <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
+    </div>
+    <div class="modal-footer center">
+      <a href="https://play.google.com/store/apps/details?id=br.com.raise.app5845&hl=pt" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
+    </div>
+  </div>
+  <?php } ?>
+  
   <!-- NAVBAR -->
   <div class="navbar-fixed">
     <nav class="navegacao invisible z-depth-0 above-all">

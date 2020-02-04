@@ -576,6 +576,11 @@ h1.heading {
 	width: 95% !important;
 }
 
+.modal .modal-footer {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 /* RODAPÉ */
 footer.page-footer {
 	background-color: #04ACB8;
