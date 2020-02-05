@@ -27,7 +27,7 @@
 			    	<?php $datamensagem = get_field('data_da_mensagem', false, false); $datamensagem = new DateTime($datamensagem); ?>
 			    	<p class="center mg0m">Ouça abaixo a mensagem pregada no dia <?php echo $datamensagem->format('j/m/Y'); ?> por <?php $pregador = get_field('pregador'); echo $pregador->name; ?>.</p>
 					<div class="pt10 pt30m">
-						<iframe src="<?php the_field('url-spotify'); ?>" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						<iframe src="https://open.spotify.com/embed-podcast/episode/<?php echo str_replace("https://open.spotify.com/episode/", "", get_field('url-spotify')); ?>" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					</div>
 			    </div>
 			</div>
