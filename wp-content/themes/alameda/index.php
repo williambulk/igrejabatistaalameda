@@ -3,7 +3,7 @@
  * Template da página inicial.
  */
 
-get_header(); ?>
+get_header('home'); ?>
 
 	<section id="abertura">
 		<div class="slider">
@@ -246,4 +246,4 @@ get_header(); ?>
 		</div>
 	</section>
 	
-<?php get_footer(); ?>
+<?php get_footer('home'); ?>

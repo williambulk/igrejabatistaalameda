@@ -23,10 +23,6 @@
 
 // Place any jQuery/helper plugins in here.
 $(document).ready(function(){
-    $('.modal').modal();
-    jQuery(document).ready(function(){
-      jQuery('#modal1').modal('open');
-    });
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
     $('.collapsible').collapsible();
