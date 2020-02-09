@@ -81,7 +81,7 @@
       <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
     </div>
     <div class="modal-footer center">
-      <a href="https://apps.apple.com/br/app/id1490099589" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
+      <a target="blank" href="https://apps.apple.com/br/app/id1490099589" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
     </div>
   </div>
   <?php } ?>
@@ -93,7 +93,7 @@
       <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
     </div>
     <div class="modal-footer center">
-      <a href="https://play.google.com/store/apps/details?id=br.com.raise.app5845&hl=pt" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
+      <a target="blank" href="https://play.google.com/store/apps/details?id=br.com.raise.app5845&hl=pt" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
     </div>
   </div>
   <?php } ?>

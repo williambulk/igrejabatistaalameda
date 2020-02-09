@@ -59,6 +59,10 @@
     </div>
 </footer>
 <!-- IMPORTAÇÃO DOS ARQUIVOS DE JAVASCRIPT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url') ?>/js/vendor/jquery.sticky.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
+<script src="<?php bloginfo('template_url') ?>/js/plugins.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('.modal').modal();
@@ -67,10 +71,6 @@
       });
   });
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url') ?>/js/vendor/jquery.sticky.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
-<script src="<?php bloginfo('template_url') ?>/js/plugins.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
