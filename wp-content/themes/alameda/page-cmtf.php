@@ -22,7 +22,7 @@ get_header(); ?>
 			<div class="container">
 				<div class="row pb50">
 					<div class="col s12 pt50 pb50">
-					    <img src="<?php bloginfo('template_url'); ?>/banner-cmtf.jpg" class="responsive-img image-center" />
+					    <img src="<?php bloginfo('template_url'); ?>/img/eventos/cmtf-marco.jpg" class="responsive-img image-center" />
 						<h3 class="center f35 turquesa-alameda-text">Veja abaixo os dados da conta para depósito para inscrição do CMTF. Após você realizar o depósito, preencha os seus dados nos campos abaixo e envie o comprovante de pagamento:</h3>
 					</div>
 					<div class="col s12">
