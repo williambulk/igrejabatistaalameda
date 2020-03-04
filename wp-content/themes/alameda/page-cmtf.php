@@ -23,9 +23,18 @@ get_header(); ?>
 				<div class="row pb50">
 					<div class="col s12 pt50 pb50">
 					    <img src="<?php bloginfo('template_url'); ?>/img/eventos/cmtf-marco.jpg" class="responsive-img image-center" />
-						<h3 class="center f35 turquesa-alameda-text">Veja abaixo os dados da conta para depósito para inscrição do CMTF. Após você realizar o depósito, preencha os seus dados nos campos abaixo e envie o comprovante de pagamento:</h3>
 					</div>
 					<div class="col s12">
+						<h3 class="center f35 turquesa-alameda-text">Informações</h3>
+						<p class="center">
+							26 e 27 de Março - 20h às 22h<br>
+							28 de Março - 9h às 12h<br>
+							13h30 às 17h30 - 19h às 22h<br>
+							Valor: R$ 50
+						</p>
+					</div>
+					<div class="col s12 pt30">
+						<p class="center f20 turquesa-alameda-text">Veja abaixo os dados da conta para depósito para inscrição do CMTF.<br>Após você realizar o depósito, preencha os seus dados nos campos abaixo e envie o comprovante de pagamento:</p>
 						<div class="col s12 m8 push-m2 center">
 							<h3>Dados bancários:</h3>
 							<div class="col s12">
