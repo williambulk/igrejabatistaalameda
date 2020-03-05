@@ -372,7 +372,7 @@ ul.sub-menu li {
 
 ul.sub-menu {
   display: none;
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
   width: 200px;
   float: left;
   white-space: nowrap;
@@ -463,6 +463,12 @@ h1.heading {
 
 .lideranca {
 	background: url('../alameda/img/topo/lideranca.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cea {
+	background: url('../alameda/img/topo/cea.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
