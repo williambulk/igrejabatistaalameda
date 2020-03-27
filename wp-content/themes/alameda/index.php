@@ -90,6 +90,39 @@ get_header('home'); ?>
 			</div>
 		</div>
 	</section>
+
+	<section id="videos-home">
+		<div class="container pt80 pt30m pb100">
+			<div class="row">
+				<div class="col s12 l12">
+					<div class="col s12 l10">
+						<h3 class="white-text f35 mg0 f23m center-mobile">Últimos Vídeos do Canal:</h3>
+						<div class="col s12 mg20">
+							<?php $ultimosvideos = array('post_type' => 'ultimos_videos', 'post_status' => 'publish', 'order' => 'asc', 'orderby' => 'id', 'posts_per_page' => 6);
+				        	$ultimosvideos = new WP_Query( $ultimosvideos );
+				            	if ( $ultimosvideos->have_posts() ) : ?>
+				            		<?php while ( $ultimosvideos->have_posts() ) : $ultimosvideos->the_post(); ?>
+										<div class="col s10 push-s1 l4 ps10 mb50 mg20m h260 hautom">
+											<div class="card hoverable z-depth-2s">
+												<div class="card-image">
+													<a target="blank" href="<?php the_field('link_youtube'); ?>">
+														<img class="miniatura-videos" src="<?php the_field('miniatura_video'); ?>" />
+													</a>
+												</div>
+											</div>
+										</div>
+					           		<?php endwhile; ?>
+					           		<?php else : ?>
+					           			<p class="white-text">Não há vídeos novos.</p>
+					           	<?php endif; ?>
+					        <?php wp_reset_query();?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section id="agenda">
 		<div class="container pt80 pt30m">
 			<div class="row">
