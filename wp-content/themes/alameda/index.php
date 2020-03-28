@@ -95,7 +95,7 @@ get_header('home'); ?>
 		<div class="container pt80 pt30m pb100">
 			<div class="row">
 				<div class="col s12 l12">
-					<div class="col s12 l10">
+					<div class="col s12 l12">
 						<h3 class="white-text f35 mg0 f23m center-mobile">Últimos Vídeos do Canal:</h3>
 						<div class="col s12 mg20">
 							<?php $ultimosvideos = array('post_type' => 'ultimos_videos', 'post_status' => 'publish', 'order' => 'asc', 'orderby' => 'id', 'posts_per_page' => 6);
