@@ -68,36 +68,6 @@
     </script>
   </head>
   <body>
-
-  <!-- HEADER --> 
-  <?php require_once "wp-content/themes/alameda/js/mobile-detect/Mobile_Detect.php"; ?>
-  <?php $detect = new Mobile_Detect; ?>
-
-  <!-- Modal iOS -->
-  <?php if( $detect->isiOS() ){ ?>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h3 class="f30m">Você já baixou o nosso aplicativo?</h3>
-      <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
-    </div>
-    <div class="modal-footer center">
-      <a target="blank" href="https://apps.apple.com/br/app/id1490099589" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
-    </div>
-  </div>
-  <?php } ?>
-  <!-- Modal Android -->
-  <?php if( $detect->isAndroidOS() ){ ?>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h3 class="f30m">Você já baixou o nosso aplicativo?</h3>
-      <p>Fique por dentro das novidades da nossa Igreja e receba as notificações dos próximos eventos e conteúdos.</p>
-    </div>
-    <div class="modal-footer center">
-      <a target="blank" href="https://play.google.com/store/apps/details?id=br.com.raise.app5845&hl=pt" class="modal-close waves-effect waves-green center white-text btn">Clique aqui para Baixar</a>
-    </div>
-  </div>
-  <?php } ?>
-
   <!-- NAVBAR -->
   <div class="navbar-fixed">
     <nav class="navegacao invisible z-depth-0 above-all">
