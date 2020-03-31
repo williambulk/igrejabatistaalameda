@@ -98,7 +98,7 @@ get_header('home'); ?>
 					<div class="col s12 l12">
 						<h3 class="white-text f35 mg0 f23m center-mobile">Últimos Vídeos do Canal:</h3>
 						<div class="col s12 mg20">
-							<?php $ultimosvideos = array('post_type' => 'ultimos_videos', 'post_status' => 'publish', 'order' => 'asc', 'orderby' => 'id', 'posts_per_page' => 6);
+							<?php $ultimosvideos = array('post_type' => 'ultimos_videos', 'post_status' => 'publish', 'order' => 'desc', 'orderby' => 'id', 'posts_per_page' => 6);
 				        	$ultimosvideos = new WP_Query( $ultimosvideos );
 				            	if ( $ultimosvideos->have_posts() ) : ?>
 				            		<?php while ( $ultimosvideos->have_posts() ) : $ultimosvideos->the_post(); ?>
@@ -122,6 +122,40 @@ get_header('home'); ?>
 			</div>
 		</div>
 	</section>
+
+	<div class="col m12 hide-on-small-only">
+		<section id="instagram-home">
+			<div class="container pt80 pt30m pb100">
+				<div class="row">
+					<div class="col m12 l12">
+						<div class="col m12 l12">
+							<h3 class="white-text f35 mg0 f23m center-mobile">Acompanhe o nosso Instagram:</h3>
+							<div class="col m12 mg20">
+								<?php echo do_shortcode('[instagram-feed]'); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="col s12 hide-on-med-and-up">
+		<section id="instagram-home-mobile">
+			<div class="container pt80 pt30m pb100">
+				<div class="row">
+					<div class="col s12">
+						<div class="col s12">
+							<h3 class="white-text f35 mg0 f23m center-mobile">Acompanhe o nosso Instagram:</h3>
+							<div class="col m12 mg20">
+								<?php echo do_shortcode('[instagram-feed]'); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 
 	<section id="agenda">
 		<div class="container pt80 pt30m">
