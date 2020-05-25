@@ -38,7 +38,7 @@ get_header(); ?>
 			</section>
 			<div class="container">
 				<div class="row pb50">
-					<div class="col s12 pt50 pb50">
+					<div class="col s12 pt50 pt30m pb50">
 						<p class="center">
 							Conforme decreto estadual bem como resolução da Secretaria de Saúde do Estado do Paraná, iremos retomar os cultos presenciais seguindo as devidas orientações.
 							<br><br>
