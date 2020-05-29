@@ -22,6 +22,14 @@ Version: 1.0
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Articulat-Bold';
+    src: url('../alameda/css/fonts/ArticulatCFv2-Bold.woff2') format('woff2'),
+        url('../alameda/css/fonts/ArticulatCFv2-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
 	font-family: 'Articulat-CF';
 }
@@ -46,6 +54,7 @@ p {
 }
 
 strong {
+	font-family: 'Articulat-Bold' !important;
 	font-weight: bold;
 }
 
