@@ -1,4 +1,4 @@
-<?php /* Template Name: Agendamento */
+<?php /* Template Name: Agendamento Santa */
 /**
  * Template padrão para exibir as páginas.
  */
@@ -56,7 +56,7 @@ strong {
 						<p class="center">
 							Conforme decreto estadual bem como resolução da Secretaria de Saúde do Estado do Paraná, a Igreja Batista Alameda <strong>irá retomar os cultos presenciais seguindo todas as normas e orientações sanitárias</strong>.
 							<br><br>
-							Uma dessas normas é o <strong>limite da capacidade do local, que poderá ser ocupado em até 30%</strong>. Com isso, teremos disponíveis <strong>155 assentos</strong> espalhados por todo o templo. Para que possamos atender a essa orientação e realizar esse controle, temos duas opções de agendamento:
+							Uma dessas normas é o <strong>limite da capacidade do local, que poderá ser ocupado em até 30%</strong>. Com isso, teremos disponíveis <strong>33 assentos</strong> espalhados por todo o templo. Para que possamos atender a essa orientação e realizar esse controle, temos duas opções de agendamento:
 							<br><br>
 							<strong>
 							1 - Através do preenchimento desse breve formulário em nosso site;<br>
@@ -83,8 +83,6 @@ strong {
 							<strong>Caso tenha alguma dúvida, nos procure pelo e-mail comunicacao@alameda.org.br ou pelo telefone (41) 3019-1308.</strong>
 							<br><br>
 							Apresente na recepção da Igreja Batista Alameda no dia do culto <strong>a tela do seu celular ou imprima o e-mail que você receberá.</strong>
-							<br><br>
-							<strong>IMPORTANTE:</strong> se você deseja participar do culto da Igreja Batista Alameda em Santa Felicidade, <a href="https://www.igrejabatistaalameda.com.br/agendamento-santa">clique aqui</a>.
 						</p>
 					</div>
 					<div class="col s12 m10 push-m1">
@@ -92,7 +90,7 @@ strong {
 					</div>
 					<div class="col s12 m10 push-m1 pb50">
 						<!-- Widget em linha do Calendly - início -->
-						<div class="calendly-inline-widget" data-url="https://calendly.com/igrejabatistaalameda" style="overflow:hidden;min-width:280px;height:1000px;"></div>
+						<div class="calendly-inline-widget" data-url="https://calendly.com/alamedasantafelicidade" style="overflow:hidden;min-width:280px;height:1000px;"></div>
 						<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 						<!-- Widget em linha do Calendly - fim -->
 					</div>
