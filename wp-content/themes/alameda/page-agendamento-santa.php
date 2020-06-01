@@ -81,8 +81,6 @@ strong {
 							Decreto 4388 de 30/03/2020 que inclui as atividades religiosas.
 							<br>
 							<strong>Caso tenha alguma dúvida, nos procure pelo e-mail comunicacao@alameda.org.br ou pelo telefone (41) 3019-1308.</strong>
-							<br><br>
-							Apresente na recepção da Igreja Batista Alameda no dia do culto <strong>a tela do seu celular ou imprima o e-mail que você receberá.</strong>
 						</p>
 					</div>
 					<div class="col s12 m10 push-m1">

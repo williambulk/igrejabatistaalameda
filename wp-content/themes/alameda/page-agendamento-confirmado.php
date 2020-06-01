@@ -56,8 +56,6 @@ strong {
 						<p class="center">
 							O AGENDAMENTO FOI EFETUADO COM SUCESSO!
 							<br><br>
-							Lembre-se de apresentar no dia do culto <strong>a tela do seu celular ou imprima o e-mail que você recebeu.</strong>
-							<br><br>
 							Não esqueça que você deve vir com a sua máscara e permanecer com ela durante o culto.
 							<br><br>
 							Tenha um bom culto!

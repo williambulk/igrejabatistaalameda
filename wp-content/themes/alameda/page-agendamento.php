@@ -82,8 +82,6 @@ strong {
 							<br>
 							<strong>Caso tenha alguma dúvida, nos procure pelo e-mail comunicacao@alameda.org.br ou pelo telefone (41) 3019-1308.</strong>
 							<br><br>
-							Apresente na recepção da Igreja Batista Alameda no dia do culto <strong>a tela do seu celular ou imprima o e-mail que você receberá.</strong>
-							<br><br>
 							<strong>IMPORTANTE:</strong> se você deseja participar do culto da Igreja Batista Alameda em Santa Felicidade, <a href="https://www.igrejabatistaalameda.com.br/agendamento-santa">clique aqui</a>.
 						</p>
 					</div>
